@@ -7,11 +7,8 @@ st.title("My first App")
 st.header("Module is EDAB")
 st.subheader("Its a fun module")
 
-# Generate random time series data
-time_series = np.random.randn(100)
-
 variable = st.button("My button")
-if variable
+if variable:
   time_series = np.random.randn(2000)
   fig, ax = plt.subplots()
   ax.plot(time_series)
