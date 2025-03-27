@@ -1,20 +1,13 @@
 try
 {
-    x = 2
-    y = 10
-
+    x = 10
+    y = 0
 result = x/y
-print("Some description")
-
 }
-
 catch(except result = 0)
 {
-    y = x
-print ("Some error:")
-result.print
 }
 
 
-my_list = [1, 2, 3]
-print(my_list[5])
+#my_list = [1, 2, 3]
+#print(my_list[5])
